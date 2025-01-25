@@ -3,19 +3,19 @@ name = "perovskites-mc-ml"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Omar Faruk", email = "omarfaruk20@iut-dhaka.edu" }
+    { name = "Omar Faruk", email = "omarfaruk20@iut-dhaka.edu" },
     { name = "Zerin Yeasmin", email = "zerinyeasmin@iut-dhaka.edu" }
 ]
 dependencies = [
-    "tensorflow>=2.17.0",
-    "matplotlib>=3.9.2",
-    "scikit-learn>=1.5.2",
-    "seaborn>=0.13.2",
-    "pandas>=2.2.3",
-    "ipykernel>=6.29.5",
-    "openpyxl>=3.1.5",
-    "xgboost>=2.1.1",
-    "imbalanced-learn>=0.12.3",
+    "tensorflow",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "pandas",
+    "ipykernel",
+    "openpyxl",
+    "xgboost",
+    "imbalanced-learn",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
